@@ -16,3 +16,6 @@
 
 add_lunch_combo aosp_bonito-userdebug
 add_lunch_combo aosp_sargo-userdebug
+add_lunch_combo lineage_bonito-userdebug
+add_lunch_combo lineage_sargo-userdebug
+
