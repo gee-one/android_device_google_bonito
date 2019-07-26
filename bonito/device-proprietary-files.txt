@@ -80,7 +80,7 @@ etc/permissions/com.android.sdm.plugins.sprintdm.xml
 -priv-app/SprintHM/SprintHM.apk
 
 # VZW
--app/vzw_msdc_api/vzw_msdc_api.apk
+#-app/vzw_msdc_api/vzw_msdc_api.apk
 etc/permissions/com.verizon.embms.xml
 etc/permissions/com.verizon.provider.xml
 etc/permissions/features-verizon.xml
@@ -90,8 +90,8 @@ etc/permissions/features-verizon.xml
 
 
 # extra stuf - not sure what it does
-product/lib/libsecureuisvc_jni.so
-product/lib64/libsecureuisvc_jni.so
+#product/lib/libsecureuisvc_jni.so
+#product/lib64/libsecureuisvc_jni.so
 #product/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
 -app/smcinvokepkgmgr/smcinvokepkgmgr.apk
 -app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
@@ -100,7 +100,7 @@ bin/move_time_data.sh
 bin/smcinvoked
 bin/vendor_cmd_tool
 etc/ambient/matcher_tah.leveldb
-etc/cne/andsfCne.xml
+#etc/cne/andsfCne.xml
 etc/felica/common.cfg
 etc/felica/mfm.cfg
 etc/felica/mfs.cfg
