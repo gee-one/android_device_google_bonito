@@ -1,6 +1,6 @@
 # Device Tree for Google Pixel 3A/XL (bonito/sargo)
 
-This device tree was forked from lineageOS with some changes/files from the Dirty Unicorns/statixOS sargo build.
+This device tree was forked from lineageOS with some changes/proprietary files from the Dirty Unicorns/statixOS sargo build.
 
 
 ## Current status
