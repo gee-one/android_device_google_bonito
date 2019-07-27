@@ -14,6 +14,7 @@ The sargo image seems to be working, but the bonito image does not boot.
 This uses the aosp vendor.img, which are provided as part of AOSP.
 
 https://developers.google.com/android/drivers#sargo
+
 https://developers.google.com/android/drivers#bonito
 
 The aosp vendor.img can be extracted from google driver binaries and should live in vendor/google_devices/{sargo|bonito}/proprietary/vendor.img.  The other (make) files from the google_devices folder aren't needed.
@@ -27,6 +28,7 @@ A better developer would probably actually build the vendor image, especially si
 The proprietary files can be extracted from the stock images.
 
 https://developers.google.com/android/images#sargo
+
 https://developers.google.com/android/images#bonito
 
 The extraction scripts are split (not common) and are located in the respective bonito or sargo folders.
@@ -41,6 +43,7 @@ The proprietary files list are created from the lineage repos and any files I co
 If switching back to other roms that don't include a vendor image, you can flash the stock vendor.img from google.
 
 https://developers.google.com/android/images#sargo
+
 https://developers.google.com/android/images#bonito
 
 Extract the vendor.img and flash in fastboot mode.
