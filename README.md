@@ -8,6 +8,24 @@ This device tree was forked from lineageOS with some changes/proprietary files f
 The sargo image seems to be working, but the bonito image does not boot.
 
 
+## Adding this to your build
+
+You can add this repo to your build by adding the following to your local_manifests/roomservice.xml file:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gee-one"
+           fetch="https://github.com/gee-one/"    
+
+  <project name="gee-one/android_device_google_bonito" path="device/google/bonito" remote="gee-one" revision="aosp-vendor-los" />
+  <project name="LineageOS/android_kernel_google_bonito" path="kernel/google/bonito" remote="github" />
+  <project name="LineageOS/android_device_google_sargo" path="device/google/sargo" remote="github" />
+
+</manifest>
+
+```
 
 ## AOSP vendor image
 
