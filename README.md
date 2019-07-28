@@ -10,7 +10,7 @@ The sargo image seems to be working, but the bonito image does not boot.
 
 ## Adding this to your build
 
-You can add this repo to your build by adding the following to your local_manifests/roomservice.xml file:
+You can add this repo to your build by adding the following to your .repo/local_manifests/roomservice.xml file:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
