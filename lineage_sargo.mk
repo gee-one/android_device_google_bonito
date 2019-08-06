@@ -19,9 +19,9 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sargo \
-    PRIVATE_BUILD_DESC="sargo-user 9 PQ3B.190705.003 5622519 release-keys"
+    PRIVATE_BUILD_DESC="sargo-user 9 PQ3B.190801.002 5674421 release-keys"
 
-BUILD_FINGERPRINT := google/sargo/sargo:9/PQ3B.190705.003/5622519:user/release-keys
+BUILD_FINGERPRINT := google/sargo/sargo:9/PQ3B.190801.002/5674421:user/release-keys
 
 # Include sargo specific blobs
 $(call inherit-product-if-exists, vendor/google/sargo/sargo-vendor.mk)
