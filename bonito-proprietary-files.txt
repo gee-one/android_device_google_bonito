@@ -3,8 +3,8 @@ product/lib64/libaptX_encoder.so
 product/lib64/libaptXHD_encoder.so
 
 # Hotword Enrollment
--product/priv-app/HotwordEnrollmentOKGoogleRT5514/HotwordEnrollmentOKGoogleRT5514.apk;PRESIGNED
--product/priv-app/HotwordEnrollmentXGoogleRT5514/HotwordEnrollmentXGoogleRT5514.apk;PRESIGNED
+#-product/priv-app/HotwordEnrollmentOKGoogleRT5514/HotwordEnrollmentOKGoogleRT5514.apk;PRESIGNED
+#-product/priv-app/HotwordEnrollmentXGoogleRT5514/HotwordEnrollmentXGoogleRT5514.apk;PRESIGNED
 
 # Now Playing
 product/etc/firmware/music_detector.descriptor
@@ -22,10 +22,10 @@ product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
 -product/priv-app/CarrierSetup/CarrierSetup.apk
 -product/priv-app/DMService/DMService.apk
--product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
--product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
-product/priv-app/EuiccSupportPixel/esim-full-v0.img
-product/priv-app/EuiccSupportPixel/esim-v1.img
+#-product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+#-product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
+#product/priv-app/EuiccSupportPixel/esim-full-v0.img
+#product/priv-app/EuiccSupportPixel/esim-v1.img
 -product/priv-app/grilservice/grilservice.apk
 -product/priv-app/OemDmTrigger/OemDmTrigger.apk
 -product/priv-app/RilConfigService/RilConfigService.apk
